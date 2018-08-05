@@ -1,0 +1,14 @@
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">آدرس ایمیل</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ایمیل">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">کلمه عبور</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="کلمه عبور">
+  </div>
+  <div class="checkbox">
+    <ba-checkbox [(ngModel)]="isChecked" [label]="'این را تیک بزن'" [ngModelOptions]="{standalone: true}"></ba-checkbox>
+  </div>
+  <button type="submit" class="btn btn-danger">ارسال</button>
+</form>

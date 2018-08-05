@@ -1,0 +1,50 @@
+<div class="widgets">
+
+  <div class="row">
+    <div class="col-md-12">
+      <ba-card title="فرم خطی" baCardClass="with-scroll">
+        <inline-form></inline-form>
+      </ba-card>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div>
+        <ba-card title="فرم ساده" baCardClass="with-scroll">
+          <basic-form></basic-form>
+        </ba-card>
+      </div>
+
+      <div>
+        <ba-card title="فرم افقی" baCardClass="with-scroll">
+          <horizontal-form></horizontal-form>
+        </ba-card>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+        <ba-card title="فرم بدون عناوین ورودی" baCardClass="with-scroll">
+          <without-labels-form></without-labels-form>
+        </ba-card>
+      </div>
+      <div>
+        <ba-card title="بلاک فرم" baCardClass="with-scroll">
+          <block-form></block-form>
+        </ba-card>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <ba-card title="بارگذار تصویر" baCardClass="with-scroll">
+        <ba-picture-uploader [picture]="profile.picture" [defaultPicture]="defaultPicture" [uploaderOptions]="uploaderOptions"></ba-picture-uploader>
+      </ba-card>
+    </div>
+    <div class="col-md-6">
+      <ba-card title="بارگذار فایل" baCardClass="with-scroll">
+        <ba-file-uploader [fileUploaderOptions]="fileUploaderOptions"></ba-file-uploader>
+      </ba-card>
+    </div>
+  </div>
+</div>

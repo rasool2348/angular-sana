@@ -1,0 +1,107 @@
+{
+  "login": {
+    "title": "ورود به ng2-admin",
+    "signup_link": "کاربر جدید هستید؟ ثبت نام کنید!",
+    "email": "ایمیل",
+    "password": "کلیمه عبور",
+    "sign_in": "ورود",
+    "forgot_password": "کلمه عبورتان را فراموش کرده اید؟",
+    "sign_from_app_text": "یا با یک کلیک وارد شوید",
+    "share_on_facebook": "ورود با فیس‌بوک",
+    "share_on_twitter": "ورود با توئیتر",
+    "share_on_google_plus": "ورود با گوگل"
+  },
+  "general": {
+    "akveo": "hDev",
+    "home": "خانه",
+    "forms": {
+      "option1": "گزینه ۱"
+    },
+    "menu": {
+      "dashboard": "داشبورد",
+      "editors": "ویرایشگر",
+      "ck_editor": "CK Editor",
+      "components": "کامپوننت",
+      "tree_view": "نمودار درختی",
+      "charts": "چارت ها",
+      "chartist_js": "Chartist.Js کتابخانه",
+      "ui_features": "UI امکانات",
+      "typography": "تایپوگرافی",
+      "buttons": "کلیدها",
+      "icons": "ایکونها",
+      "modals": "مودال",
+      "grid": "گرید",
+      "form_elements": "المان‌های فرم",
+      "form_inputs": "ورودی فرم",
+      "form_layouts": "ساختار فرم",
+      "tables": "جدول‌ها",
+      "basic_tables": "جدول ساده",
+      "smart_tables": "جدول هوشمند",
+      "maps": "نقشه‌ها",
+      "google_maps": "نقشه گوگل",
+      "leaflet_maps": "نقشه لیفلت",
+      "bubble_maps": "نقشه بابل",
+      "line_maps": "نقشه لاین",
+      "pages": "صفحه‌ها",
+      "login": "ورود",
+      "register": "ثبت نام",
+      "menu_level_1": "منوی سطح ۱",
+      "menu_level_1_1": "منوی سطح ۱-۱",
+      "menu_level_1_2": "منوی سطح ۱-۲",
+      "menu_level_1_2_1": "منوی سطح ۱-۲-۱",
+      "external_link": "لینک خارجی"
+    },
+    "created_with": "ساخته شده با "
+  },
+  "dashboard": {
+    "acquisition_channels": "کانال‌های ترافیک",
+    "users_by_country": "کاربران به تفکیک کشور",
+    "revenue": "درآمد",
+    "feed": "فید",
+    "todo_list": "فهرست وظایف",
+    "calendar": "تقویم",
+    "new_visits": "بازدید جدید",
+    "purchases": "خریدها",
+    "active_users": "کاربران فعال",
+    "returned": "بازگشت",
+    "popular_app": {
+      "super_app": "Super App",
+      "most_popular_app": "محبوب ترین برنامه‌ها",
+      "total_visits": "مجموع بازدید",
+      "new_visits": "بازدید‌های جدید",
+      "sales": "فروش"
+    },
+    "todo": {
+      "task_todo": "کاری برای انجام . . ."
+    },
+    "traffic_chart": {
+      "view_total": "مجموع نمایش"
+    }
+  },
+  "tree_view": {
+    "title": "ساده",
+    "programming": "Programming languages by programming paradigm",
+    "oop": "Object-oriented programming",
+    "java": "Java",
+    "c_plus_plus": "C++",
+    "c_sharp": "C#",
+    "prototype": "Prototype-based programming",
+    "java_script": "JavaScript",
+    "coffee_script": "CoffeeScript",
+    "lua": "Lua"
+  },
+  "chart": {
+    "lines": "Lines",
+    "bars": "Bars",
+    "simple_line_chart": "Simple line chart",
+    "line_chart": "Line chart with area",
+    "bi_polar_line_chart": "Bi-polar line chart with area only",
+    "simple_bar_chart": "Simple bar chart",
+    "multi_line_labels_bar_chart": "Multi-line labels bar chart",
+    "stacked_bar_chart": "Stacked bar chart",
+    "pies_and_donuts": "Pies & Donuts",
+    "simple_pie": "Simple Pie",
+    "pie_with_labels": "Pie with labels",
+    "donut": "Donut"
+  }
+}

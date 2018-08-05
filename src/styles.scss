@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'app/theme/sass/conf/conf';
+
+
+.breadcrumb-item {
+    float: $float;
+}
+
+@if $direction=='rtl' {
+    .card-title {
+        font-size: 18px;
+    }
+    .dropdown-menu {
+        right: 0xp;
+        left: inherit;
+    }
+    .dropdown-item {
+        text-align: right;
+    }
+    .dropdown-toggle::after {
+        float: right;
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+    }
+    .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .btn-group>.btn:last-child:not(:first-child),
+    .btn-group>.dropdown-toggle:not(:first-child) {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        .btn-group .btn+.btn,
+        .btn-group .btn+.btn-group,
+        .btn-group .btn-group+.btn,
+        .btn-group .btn-group+.btn-group,
+        .btn-group-vertical .btn+.btn,
+        .btn-group-vertical .btn+.btn-group,
+        .btn-group-vertical .btn-group+.btn,
+        .btn-group-vertical .btn-group+.btn-group {
+            margin-right: -1px;
+        }
+    }
+    .modal-content {
+        direction: rtl;
+    }
+    .direction-ltr {
+        direction: ltr;
+    }
+    .direction-rtl
+    {
+        direction: rtl;
+    }
+    .input-group>span.addon-left {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .input-group .form-control:not(:first-child),
+    .input-group-addon:not(:first-child),
+    .input-group-btn:not(:first-child)>.btn,
+    .input-group-btn:not(:first-child)>.btn-group>.btn,
+    .input-group-btn:not(:first-child)>.dropdown-toggle,
+    .input-group-btn:not(:last-child)>.btn:not(:first-child),
+    .input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.btn {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .input-group .form-control:not(:last-child),
+    .input-group-addon:not(:last-child),
+    .input-group-btn:not(:last-child)>.btn,
+    .input-group-btn:not(:last-child)>.btn-group>.btn,
+    .input-group-btn:not(:last-child)>.dropdown-toggle,
+    .input-group-btn:not(:first-child)>.btn:not(:last-child):not(.dropdown-toggle),
+    .input-group-btn:not(:first-child)>.btn-group:not(:last-child)>.btn {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .input-group>span.addon-right {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-family: $font-family
+    }
+    th {
+        text-align: right;
+    }
+    .card>.card-body {
+        padding: 15px 17px;
+    }
+    .page-item:first-child .page-link {
+        margin-right: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+    .page-item:last-child .page-link {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.25rem;
+        border-top-left-radius: 0.25rem;
+    }
+    ng2-smart-table * {
+        font-family: $font-family !important;
+    }
+    .leaflet-maps .leaflet-popup-content {
+        font-family: $font-family;
+        direction: rtl;
+        text-align: right;
+    } 
+ .msg-area{
+     float: left;
+ }
+ .msg-area > div{
+     text-align: right;
+ }
+ .cke_1 .cke_top *
+ {
+     font-family: $font-family;
+ }
+
+
+    
+}
